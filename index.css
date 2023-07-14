@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 12px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+}
+
+.row {
+    margin-top: 86px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 28px;
+}
+
+.column {
+    width: 20px;
+    height: 100px;
+    background-color: white;
+}
+
+.inner-circle {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 8px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.line-1 {
+    width: 86px;
+    height: 20px;
+    background-color: white;
+}
+
+.line-2 {
+    width: 86px;
+    height: 20px;
+    background-color: white;
+}
